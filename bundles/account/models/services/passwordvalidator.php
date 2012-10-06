@@ -4,8 +4,6 @@ namespace Account\Services;
 
 class PasswordValidator extends \DG\Base\Validator
 {
-    private function __construct() {}
-
     public static function make($input=null, $rules=null)
     {
         if ($input === null) {

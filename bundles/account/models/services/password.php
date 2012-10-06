@@ -6,8 +6,6 @@ use \Auth;
 
 class Password extends \DG\Base\Service
 {
-    public function __construct() {}
-
     public static function form()
     {
         $_instance = new self;

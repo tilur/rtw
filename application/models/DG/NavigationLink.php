@@ -20,13 +20,6 @@ class NavigationLink
      */
     private static $_link = null;
 
-    /**
-     * Create a new navigation instance.
-     *
-     * @return void
-     */
-    public function __construct() {}
-
     public static function make($href=null, $label=null, $class=null, $size=null)
     {
         if (self::$_instance === null) {

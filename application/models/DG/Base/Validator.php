@@ -4,8 +4,6 @@ namespace DG\Base;
 
 class Validator
 {
-    public function __construct() {}
-
     public static function validate($input=null, $rules=null, $messages=array())
     {
         // If the $input variable is null, automatically set it to Input::all().
