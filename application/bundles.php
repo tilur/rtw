@@ -36,5 +36,8 @@
 return array(
 
 	'docs' => array('handles' => 'docs'),
+	'login' => array('handles' => 'login'),
+	'dashboard' => array('handles' => 'dashboard'),
+	'account' => array('handles' => 'account'),
 
 );

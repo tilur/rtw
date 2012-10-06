@@ -34,7 +34,13 @@
 
 Route::get('/', function()
 {
+    return Redirect::to('login');
 	return View::make('home.index');
+});
+Route::get('logout', function()
+{
+	Auth::logout();
+	return Redirect::to('/');
 });
 
 /*
