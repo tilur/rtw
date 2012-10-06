@@ -17,4 +17,10 @@ class Service
     {
         return $this->_form_data;
     }
+
+    public function set($data)
+    {
+        $this->_form_data = $data;
+        return true;
+    }
 }
